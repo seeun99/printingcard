@@ -1,0 +1,772 @@
+
+
+
+/* responsive-1200px */
+
+@media all and (max-width: 1200px)
+{
+    
+
+    /* topBox - hambergerMenu */
+
+    #hamburgerMenu {
+        width: 350px;
+    }
+    
+    #hamburgerLines {
+        width: 35px;
+        height: 27px;
+    }
+
+    .lines {
+        height: 3px;
+    }
+    
+    #hamburgerItemsBlank{
+        height: 70px;
+    }
+    
+    .hamburgerItems{
+        padding-left: 20px;
+        padding-bottom: 7px;
+    }
+    
+    #hamburgerMenu li {
+        margin-bottom: 7px;
+        font-size: 1.3rem;
+    }
+
+    /* topBox - title */
+
+    #topBox {
+        margin: 17px 0px;
+    }
+
+    #topBox .title {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    /* bottom */
+
+    .bottom{
+        margin: 17px 0px;
+    }
+
+    .pointImg{
+        width: 33px;
+    }
+
+    .edgeImg{
+        width: 76px;
+    }
+
+
+
+
+
+    /* cardA */
+
+    /* cardAgraphic */
+
+    #cardAgraphic{
+        gap: 8%;
+    }
+
+    .recBox{
+        width: 38%;
+    }
+
+    .none01{
+        display: none;
+    }
+
+
+    /* cardAcontent-imgFrame */
+
+
+    /* cardAcontent-textFrame */
+
+    .textFrame{
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .name{
+        margin-bottom: 20px;
+    }
+
+    #nameA{
+        font-size: 3.5rem;
+    }
+
+    .location{
+        gap: 4px;
+    }
+
+    .location img{
+        width: 16px;
+    }
+
+    .link img{
+        width: 16px;
+    }
+
+    .nameInfo{
+        font-size: 0.8rem;
+    }
+
+    .info p{
+        font-size: 0.9rem;
+        margin-bottom: 3.5px;
+    }
+
+
+
+    /* cardB */
+
+    /* cardBgraphic */
+
+    #cardBgraphic01{
+        background-size: 70%;
+    }
+
+    #cardBgraphic02{
+        gap: 0%;
+    }
+    
+    .recBbox{
+        width: 25%;
+        gap: 40%;
+    }
+    
+    .recB{
+        height: 17%;
+    }
+
+
+    /* cardBcontent-textFrame */
+
+    #nameB{
+        font-size: 2.7rem;
+    }
+
+    /* cardBcontent-imgFrame */
+
+
+
+
+
+    /* cardC */
+
+    /* cardCgraphic */
+
+    .noneC{
+        display: none;
+    }
+
+    #perspectiveC01{
+        width: 6.5%;
+        transform: rotate(15deg) translate(-35px, 6px);
+    }
+
+    #recC03{
+        width: 18%;
+    }
+
+    #recC04{
+        width: 30%;
+    }
+
+    #recC05{
+        width: 18%;
+    }
+
+    #perspectiveC04{
+        width: 6.5%;
+    }
+
+
+    /* cardContent-textFrame */
+
+    #nameC{
+        font-size: 3rem;
+    }
+
+
+    /* cardContent-imgFrame */
+
+
+
+
+
+    /*cradD */
+
+    /* cardDgraphic */
+
+
+    /* cardContent-textFrame */
+    
+    #nameD{
+        font-size: 3.2rem;
+    }
+
+
+
+
+    /*cradE */
+
+    /* cardEgraphic */
+
+    .eclipseE{
+        width: 15%;
+    }
+
+    .noneE1{
+        display: none;
+    }
+
+    @keyframes translateE02
+    {
+        from{}
+        to{transform: translate(125%);}
+    }
+
+    @keyframes translateE03
+    {
+        from{}
+        to{transform: translate(250%);}
+    }
+
+    @keyframes translateE04
+    {
+        from{}
+        to{transform: translate(375%);}
+    }
+
+    @keyframes translateE05
+    {
+        from{}
+        to{transform: translate(500%);}
+    }
+
+    /* cardContent-textFrame */
+    
+    #nameE{
+        font-size: 2.7rem;
+    }
+
+
+
+
+    /* cardF */
+
+    /* cardContent-imgFrame */
+
+    /* cardContent-textFrame */
+
+    #nameF{
+        font-size: 2.6rem;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+    /* sideText-left-right */
+
+    /* subtitle */
+
+    .sub-title{
+        margin-left: -115px;
+    }
+
+
+    #sub-titleA{
+        font-size: 1.5rem;
+        letter-spacing: -0.02em;
+        line-height: 1;
+    }
+    
+    #sub-titleB{
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+    
+    #sub-titleC{
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    
+    #sub-titleD{
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    
+    #sub-titleE{
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    
+    #sub-titleF{
+        font-size: 1.6rem;
+        line-height: 0.8;
+    }
+
+
+    /* iconList */
+
+    .icon-list{
+        margin-right: 18px;
+    }
+    
+    .icon-list li {
+        margin-bottom: 15px;
+    }
+
+    .icon-list img {
+        width: 30px;
+    }
+    
+    .icon-list .list-item {
+        font-size: 10px;
+    }
+
+
+}
+
+
+
+
+
+/* responsive-640px */
+
+
+@media all and (max-width: 640px)
+{
+
+
+    /* topBox - hambergerMenu */
+
+    #hamburgerMenu {
+        width: 280px;
+    }
+    
+    #hamburgerLines {
+        width: 29px;
+        height: 22px;
+    }
+
+    .lines {
+        height: 2.5px;
+    }
+    
+    #hamburgerItemsBlank{
+        height: 60px;
+    }
+    
+    .hamburgerItems{
+        padding-left: 20px;
+        padding-bottom: 6px;
+    }
+    
+    #hamburgerMenu li {
+        margin-bottom: 6px;
+        font-size: 1.2rem;
+    }
+
+
+    /* topBox - title */
+
+    #topBox {
+        margin: 16px 0px;
+    }
+
+    #topBox .title {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 1.3rem;
+        margin-top: -5px;
+    }
+
+    /* bottom */
+
+    .bottom{
+        margin: 16px 0px;
+    }
+
+    .pointImg{
+        width: 27px;
+    }
+
+    .edgeImg{
+        width: 65px;
+    }
+
+    
+
+
+
+
+
+    /* cardA */
+
+    /* cardAgraphic */
+
+    .recBox{
+        width: 80%;
+    }
+
+    .none02{
+        display: none;
+    }
+
+
+    /* cardAcontent-imgFrame */
+
+    .directionContainer{
+        position: fixed;
+        width: 40px;
+        margin-right: 7%;
+    }
+
+
+    /* cardAcontent-textFrame */
+
+    .textFrame{
+        padding: 7%;
+    }
+
+    .name{
+        margin-bottom: 18px;
+    }
+
+    #nameA{
+        font-size: 5vmax;
+    }
+
+    .location img{
+        width: 12px;
+    }
+
+    .link img{
+        width: 12px;
+    }
+
+    .nameInfo{
+        font-size: 1.2vmax;
+    }
+
+    .info{
+        overflow-y: scroll;
+        max-height: 150px;
+    }
+
+    .info p{
+        font-size: 1.5vmax;
+        line-height: 1.5;
+        margin-bottom: 2px;
+    }
+
+
+
+
+    /* cardB */
+
+    /* cardBgraphic */
+
+    #cardBgraphic01{
+        background-size: 80%;
+    }
+
+    .recBbox{
+        width: 30%;
+        gap: 50%;
+    }
+    
+    .recB{
+        height: 12%;
+    }
+
+
+    /* cardBcontent-textFrame */
+
+    #nameB{
+        font-size: 4vmax;
+    }
+
+
+    /* cardBcontent-imgFrame */
+
+
+
+
+    /* cardC */
+
+    /* cardCgraphic */
+
+    #cardCgraphic{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .noneC{
+        display: block;
+    }
+
+    #perspectiveC01{
+        width: 36%;
+        height: 5%;
+        perspective: 50px;
+        transform: rotate(13deg) translate(5px, -5px);
+    }
+    
+    #recC01{
+        width: 100%;
+        height: 100%;
+        background-color: #98D667;
+        transform: rotateX(15deg);
+    }
+    
+    #recC02{
+        width: 40%;
+        height: 25%;
+        transform: rotate(-10deg) translate(2px, 10px);
+    }
+    
+    #recC03{
+        width: 40%;
+        height: 15%;
+        transform: rotate(8deg) translate(-9px, -6px);
+    }
+    
+    #recC04{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #perspectiveC02{
+        width: 7%;
+        height: 90%;
+        perspective: 50px;
+        transform: rotate(2deg) translate(7px, 4px);
+    }
+    
+    #recC04-1{
+        width: 100%;
+        height: 100%;
+        transform: rotateY(-15deg);
+    }
+    
+    #recC04-2{
+        width: 20%;
+        height: 100%;
+        transform: rotate(-22deg) translate(8px, 22px);
+    }
+    
+    #recC04-3{
+        width: 40%;
+        height: 100%;
+        transform: rotate(-6deg) translate(0px, -15px);
+    }
+    
+    #recC04-4{
+        width: 20%;
+        height: 100%;
+        transform: rotate(-19deg) translate(1px, 4px);
+    }
+    
+    #perspectiveC03{
+        width: 7%;
+        height: 90%;
+        perspective: 50px;
+        transform: rotate(5deg) translate(-7px, -24px);
+    }
+    
+    #recC04-5{
+        width: 100%;
+        height: 100%;
+        transform: rotateY(15deg);
+    }
+    
+    #recC05{
+        width: 40%;
+        height: 15%;
+        transform: rotate(-16deg) translate(9px, -3px);
+    }
+    
+    #perspectiveC04{
+        width: 36%;
+        height: 5%;
+        perspective: 50px;
+        transform: rotate(-11deg) translate(7px, 1px);
+    }
+    
+    #recC06{
+        width: 100%;
+        height: 100%;
+        transform: rotateX(-15deg);
+    }
+
+
+    /* cardContent-textFrame */
+
+    #nameC{
+        font-size: 5vmax;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    /* cardContent-imgFrame */
+
+
+
+
+    /*cradD */
+
+    /* cardDgraphic */
+
+    .noneD{
+        display: none;
+    }
+
+    .recDbox{
+        width: 50%;
+    }
+
+    /* cardContent-textFrame */
+    
+    #nameD{
+        font-size: 5vmax;
+    }
+
+
+
+    /*cradE */
+
+    /* cardEgraphic */
+
+    .eclipseE{
+        width: 18%;
+        left: 7%;
+    }
+
+    .noneE2{
+        display: none;
+    }
+
+    @keyframes translateE02
+    {
+        from{}
+        to{transform: translate(126%);}
+    }
+
+    @keyframes translateE03
+    {
+        from{}
+        to{transform: translate(253%);}
+    }
+
+    @keyframes translateE04
+    {
+        from{}
+        to{transform: translate(380%);}
+    }
+
+    /* cardContent-textFrame */
+    
+    #nameE{
+        font-size: 5vmax;
+    }
+
+
+
+
+
+
+    /* cardF */
+
+    /* cardContent-imgFrame */
+
+    /* cardContent-textFrame */
+
+    #nameF{
+        font-size: 5vmax;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+    /* sideText-left-right */
+
+    /* subtitle */
+
+    .sub-title{
+        margin-left: -115px;
+    }
+
+    #sub-titleA{
+        font-size: 1.4rem;
+        letter-spacing: -0.02em;
+        line-height: 1;
+    }
+    
+    #sub-titleB{
+        font-size: 1.1rem;
+        line-height: 1;
+    }
+    
+    #sub-titleC{
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+    
+    #sub-titleD{
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+    
+    #sub-titleE{
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+    
+    #sub-titleF{
+        font-size: 1.5rem;
+        line-height: 0.8;
+    }
+
+
+    /* iconList */
+
+    .icon-list{
+        margin-right: 15px;
+    }
+    
+    .icon-list li {
+        margin-bottom: 13px;
+    }
+
+    .icon-list img {
+        width: 25px;
+    }
+    
+    .icon-list .list-item {
+        font-size: 8px;
+    }
+
+
+
+}
